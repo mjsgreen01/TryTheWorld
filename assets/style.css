@@ -65,39 +65,61 @@ body {
     margin: 0 auto;
     padding: 16px 0;
 }
+.bannerContent{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
 .bannerContent h1{
     font-weight: 600;
-    font-size: 36px;
-    letter-spacing: 4px;
+    font-size: 38px;
+    letter-spacing: .105em;
+    margin-bottom: 25px;
+    line-height: 1.15em;
 }
 .bannerContent h3{
     font-weight: 300;
-    font-size: 24px;
-    letter-spacing: 2px;
-    max-width: 550px;
-    line-height: 33px;
+    font-size: 23px;
+    letter-spacing: .09em;
+    max-width: 562px;
+    line-height: 1.45em;
 }
 .panelHeader{
     font-family: 'Open Sans', sans-serif;
+    color: #FF3300;
+    text-align: center;
+    margin: 32px 0 16px 0;
+        letter-spacing: .2em;
+    font-weight: 600;
 }
 .panel{
     float: left;
     padding: 0 4px;
     box-sizing: border-box;
-    width: 33.33%
+    width: 33.33%;
+    color: gray;
+    font-family: 'Lato', sans-serif;
 }
 .panel img{
     width: 100%;
-}
-.panelHeader{
-    text-align: center;
 }
 .clearfix::after{
     clear: both;
     content: '';
     display: table;
 }
-
+.panel h4{
+    font-size: 13px;
+    line-height: 1.6em;
+    letter-spacing: .1em;
+}
+.panel h4.line2{
+    font-weight: 600;
+}
+.panelText {
+    padding-top: 16px;
+    padding-left: 20px;
+}
 
 
 
