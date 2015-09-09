@@ -46,6 +46,65 @@ body {
 
 
 
+.fullWidth{
+    width: 100%;
+}
+.bannerContainer{
+    height: 500px;
+    background: url(https://cdn.shopify.com/s/files/1/0209/2570/files/startjourneysanstext.jpg?12020595602272009437) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.bannerContent h1{
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+.bannerContent h3{
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 2px;
+    max-width: 550px;
+    line-height: 33px;
+}
+.panelHeader{
+    font-family: 'Open Sans', sans-serif;
+}
+.panel{
+    float: left;
+    padding: 0 4px;
+    box-sizing: border-box;
+    width: 33.33%
+}
+.panel img{
+    width: 100%;
+}
+.panelHeader{
+    text-align: center;
+}
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+
+
+
+
+
+
+
 
 
 
