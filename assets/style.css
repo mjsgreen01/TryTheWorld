@@ -115,6 +115,7 @@ body {
 }
 .panel h4.line2{
     font-weight: 600;
+    color: #696969;
 }
 .panelText {
     padding-top: 16px;
@@ -126,9 +127,35 @@ body {
 
 
 
+@media screen and (max-width: 1230px) {
+    .wrapper{
+        padding: 16px 25px;
+        box-sizing: border-box;
+    }
+}
 
-
-
+@media screen and (max-width: 880px) {
+    .bannerContainer{
+            background: url(https://cdn.shopify.com/s/files/1/0209/2570/files/startjourneysanstext.jpg?12020595602272009437) no-repeat 0px center;
+            text-align: center;
+    }
+    .bannerContent h3 {
+        max-width: 100%;
+    }
+    .panel{
+        width: 100%;
+        max-width: 500px;
+        margin: 4px auto;
+        float: none;
+    }
+    .panelText{
+        padding: 1.2em;
+        text-align: center;
+    }
+    .panelHeader{
+        line-height: 1.4em;
+    }
+}
 
 
 
